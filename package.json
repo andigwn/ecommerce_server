@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce_server",
+  "version": "1.0.0",
+  "description": "ecommerce app with node and mongodb server",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andigwn/ecommerce_server.git"
+  },
+  "author": "andigwn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andigwn/ecommerce_server/issues"
+  },
+  "homepage": "https://github.com/andigwn/ecommerce_server#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7"
+  }
+}
